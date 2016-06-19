@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/wguWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etSubjectLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wguPrimary"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="My reply to:"
+            android:textColor="@color/wguWhite"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSubjectLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/palePrimary"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Hello I Must Be Going"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etPostBody"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="Type reply here..."
+            android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textLongMessage"
+            android:lines="6" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selectable_background_nightowl"
+                android:gravity="center"
+                android:text="@string/settings_button_cancel"
+                android:textColor="@color/wguGold" />
+
+            <Button
+                android:id="@+id/btPost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selectable_background_nightowl"
+                android:gravity="center"
+                android:text="Post Reply"
+                android:textColor="@color/wguPrimary" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

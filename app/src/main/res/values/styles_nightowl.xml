@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Nightowl" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/wguPrimary</item>
+        <item name="colorPrimaryDark">@color/wguPrimaryDark</item>
+        <item name="colorAccent">@color/wguGold</item>
+
+        <item name="android:dialogTheme">@style/DialogNO</item>
+        <item name="android:textColor">@color/wguPrimaryText</item>
+
+        <item name="md_icon">@drawable/owl5</item>
+        <item name="md_positive_color">@color/wguPrimary</item>
+        <item name="md_neutral_color">@color/wguPrimaryDark</item>
+        <item name="md_negative_color">@color/wguGold</item>
+
+        <!--<item name="actionBarStyle">@style/Nightowl.ActionBar</item>-->
+    </style>
+
+    <style name="DialogNO" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/wguPrimary</item>
+        <item name="colorPrimaryDark">@color/wguPrimaryDark</item>
+        <item name="colorAccent">@color/wguGold</item>
+
+        <item name="colorControlNormal">@color/wguPrimary</item>
+        <item name="colorControlActivated">@color/wguPrimary</item>
+        <item name="colorControlHighlight">@color/wguGold</item>
+    </style>
+
+    <style name="Nightowl.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/wguPrimaryDark</item>
+    </style>
+
+    <style name="Nightowl.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progbar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minWidth">1dip</item>
+        <item name="android:maxWidth">12dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.geofinity.wgu.nightowl">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NOMApp"
+        android:allowBackup="true"
+        android:icon="@drawable/owl5"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Nightowl">
+        <activity
+            android:name=".ui.ActMain"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActVideoPlayer"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="@string/videoPlayerTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="video/mp4"
+                    android:scheme="file"
+                    android:host="*"
+                    android:pathPattern=".*PocketWGU.*" />
+            </intent-filter>
+            </activity>
+        <activity
+            android:name=".ui.ActCommunityMessage"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="@string/communityTitle"></activity>
+        <activity
+            android:name=".ui.ActVideoList"
+            android:label="@string/videoPlayerTitle"></activity>
+        <activity
+            android:name=".ui.ActMySavedFiles"
+            android:label="@string/mySavedTitle"></activity>
+        <activity
+            android:name=".ui.ActBadge"
+            android:label="@string/badgeTitle"></activity>
+        <activity
+            android:name=".ui.ActSecWeb"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="PocketWGU">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="*.wgu.edu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActCoS"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="@string/coursesTitle"></activity>
+        <activity
+            android:name=".ui.ActSocial"
+            android:label="Social Links"></activity>
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="341dfbf2b0f3ef87a3443889c1e79bc596553382" />
+    </application>
+
+</manifest>

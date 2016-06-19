@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvLastUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/tvLastRefresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/update_card_bot_pad"
+        android:paddingTop="@dimen/update_card_top_pad"
+        android:text="Last Update: 07/09/14 16:21"
+        android:textColor="@color/wguPrimary"
+        android:textSize="@dimen/card_subtitle_text" />
+
+</android.support.v7.widget.CardView>

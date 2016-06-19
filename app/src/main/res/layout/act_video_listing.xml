@@ -1,0 +1,66 @@
+<com.geofinity.wgu.nightowl.ui.util.TargetedSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvVideoList"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/videoToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/wguPrimary"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:id="@+id/itvClear"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/selectable_background_nightowl"
+                android:gravity="center"
+                android:text="{fa-times-circle-o}"
+                android:textColor="@color/wguWhite"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvVideoDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical|left"
+                android:lines="2"
+                android:text="WGU Videos"
+                android:textColor="@color/wguWhite"
+                android:textSize="16sp" />
+
+            <android.widget.Button
+                android:id="@+id/itvMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/selectable_background_nightowl"
+                android:gravity="center"
+                android:text="Show\nMore"
+                android:textColor="@color/wguWhite"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</com.geofinity.wgu.nightowl.ui.util.TargetedSwipeRefreshLayout>

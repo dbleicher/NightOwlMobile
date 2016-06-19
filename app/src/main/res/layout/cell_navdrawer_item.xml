@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    tools:ignore="ContentDescription">
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/wguPrimary"
+        android:gravity="center"
+        android:text="H"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:gravity="left|center_vertical"
+        android:text="Help With PocketWGU"
+        android:layout_marginLeft="32dp"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

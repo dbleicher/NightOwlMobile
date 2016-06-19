@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvProgramCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <!-- Title Row -->
+        <TextView
+            android:id="@+id/tvProgTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/wguPrimary"
+            android:gravity="center"
+            android:minLines="2"
+            android:padding="5dp"
+            android:text="@string/program_title"
+            android:textColor="@color/wguWhite"
+            android:textSize="@dimen/card_title_text" />
+
+        <!-- Progress Row -->
+        <LinearLayout
+            android:id="@+id/llProgView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Left Block -->
+            <LinearLayout
+                android:id="@+id/llTermProg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTermProgTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:text="@string/prog_term_title"
+                    android:textColor="@color/wguPrimary"
+                    android:textSize="@dimen/card_title_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTermProgString"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/prog_term_string"
+                    android:textColor="@color/wguPrimaryDark"
+                    android:textSize="@dimen/card_subtitle_text" />
+
+                <ProgressBar
+                    android:id="@+id/pbTermProgbar"
+                    style="@style/Nightowl.ProgressBar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/card_progbar_height"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:progress="0" />
+
+            </LinearLayout>
+
+            <!-- Right Block -->
+            <LinearLayout
+                android:id="@+id/llDegProg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvDegProgTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:text="@string/prog_degree_title"
+                    android:textColor="@color/wguPrimary"
+                    android:textSize="@dimen/card_title_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDegProgString"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/prog_degree_string"
+                    android:textColor="@color/wguPrimaryDark"
+                    android:textSize="@dimen/card_subtitle_text" />
+
+                <ProgressBar
+                    android:id="@+id/pbDegProgbar"
+                    style="@style/Nightowl.ProgressBar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/card_progbar_height"
+                    android:layout_gravity="center"
+                    android:indeterminate="false"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:progress="0" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Dates Row -->
+        <LinearLayout
+            android:id="@+id/glGradTerm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- C1 R3 Left Block -->
+            <LinearLayout
+                android:id="@+id/llTermNum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCTermEndDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Sep 30, 2015"
+                    android:textColor="@color/wguPrimaryDark"
+                    android:textSize="@dimen/card_subtitle_text" />
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/tvCurrentTerm"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/selectable_background_nightowl"
+                    android:gravity="center"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="3"
+                    android:text="@string/current_term"
+                    android:textColor="@color/wguPrimary"
+                    android:textSize="@dimen/card_icontv_size" />
+
+
+            </LinearLayout>
+
+            <!-- C1 R3 Right Block -->
+            <LinearLayout
+                android:id="@+id/llGradFinish"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvGraduationDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/grad_finish"
+                    android:textColor="@color/wguPrimaryDark"
+                    android:textSize="@dimen/card_subtitle_text" />
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/itvProgessIcon2"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/selectable_background_nightowl"
+                    android:gravity="center"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="3"
+                    android:text="{fa-flag-checkered}"
+                    android:textColor="@color/wguPrimary"
+                    android:textSize="@dimen/card_icontv_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+    <item android:id="@+id/action_courses"
+        android:title="@string/coursesTitle"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_community"
+        android:title="@string/communityTitle"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_resources"
+        android:title="@string/resourcesTitle"
+        app:showAsAction="always" />
+</menu>

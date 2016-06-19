@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/wguWhite"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+
+        <TextView
+            android:id="@+id/tvVideoName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="A video on something about something else"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <FrameLayout
+            android:id="@+id/llCellBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/ivThumbnail"
+                android:layout_width="186dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom"
+                android:background="#40000000"
+                android:padding="4dp">
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="{fa-calendar-o} Jun 1, 1985"
+                    android:textSize="12sp"
+                    android:layout_gravity="left"
+                    android:textColor="@color/wguWhite"
+                    android:layout_weight="1" />
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:id="@+id/tvDuration"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="{fa-clock-o} 7min 32sec"
+                    android:textSize="12sp"
+                    android:textColor="@color/wguWhite"
+                    android:layout_weight="1"
+                    android:layout_gravity="right" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/llFolder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:id="@+id/ibFolder"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/selectable_background_nightowl"
+                android:text="{fa-folder-open-o}"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvFolderName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Folder: The WGU Channel"
+                android:textSize="14sp" />
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:id="@+id/ibDownload"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/selectable_background_nightowl"
+                android:text="{fa-download}"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PocketWGU</string>
+    <string name="coursesTitle">Courses</string>
+    <string name="communityTitle">Community</string>
+    <string name="resourcesTitle">Resources</string>
+    <string name="socialTitle">Social</string>
+    <string name="settingsTitle">Settings</string>
+    <string name="videoPlayerTitle">WGU Videos</string>
+    <string name="mySavedTitle">My Saved Files</string>
+    <string name="webmailTitle">WGU WebMail</string>
+    <string name="badgeTitle">Progress Badge</string>
+
+
+    <string name="badLogin">Login Failed: please check your username and password.</string>
+    
+    <string name="pw_copyright">Copyright &#169; 2011-2014 by David Bleicher</string>
+    <string name="pw_credits_intro">
+        The Developers of PocketWGU gratefully acknowledge use of the following open-source products and libraries:
+    </string>
+
+    <string name="pw_cred_name">Awesome Library</string>
+    <string name="pw_cred_copy">Copyright &#169; 2014, John Doe</string>
+    <string name="pw_cred_lic">Apache License, Version 2.0</string>
+
+    <string name="title_section1">PocketWGU Home</string>
+    <string name="title_section2">Courses</string>
+    <string name="title_section3">Community</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="settings_welcome">Enter your WGU Student Portal username and password</string>
+    <string name="settings_label_username">Username:</string>
+    <string name="settings_label_userpass">Password:</string>
+    <string name="settings_button_save">Login</string>
+    <string name="settings_button_cancel">Cancel</string>
+
+
+    <string name="prog_term_title">Term</string>
+    <string name="prog_degree_title">Degree</string>
+
+    <string name="prog_term_string">0 of 0 (0%)</string>
+    <string name="prog_degree_string">0 of 0 (0%)</string>
+
+    <string name="program_title">Welcome to PocketWGU</string>
+    <string name="grad_date">Projected Graduation:\nJuly, 2016</string>
+
+    <string name="mentor_name">Jennifer Personable</string>
+    <string name="mentor_phone">(800) 555-1212 x1234</string>
+    <string name="mentor_email">jpersonable@wgu.edu</string>
+
+    <string name="comm_name">All My Communities</string>
+    <string name="comm_newmess">18 Posts Today</string>
+
+    <string name="grad_finish">September, 2019</string>
+    <string name="current_term">-</string>
+
+    <string name="someTextContent">This Is Text</string>
+    <string name="save_diag_button_label">Save or Share</string>
+
+</resources>

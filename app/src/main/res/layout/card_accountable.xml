@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvAllTermsCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    auto:cardCornerRadius="0dp"
+    auto:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvProgTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/wguPrimary"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/program_title"
+            android:textColor="@color/wguWhite"
+            android:textSize="@dimen/card_subtitle_text" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="4dp"
+            android:text="My progress as of: 02/24/2015"
+            android:textSize="@dimen/card_subtitle_text" />
+
+        <android.support.v7.widget.GridLayout
+            android:id="@+id/glCourseGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            auto:columnCount="7" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/tvLegendComplete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/legend_green_square"
+                android:drawablePadding="4dp"
+                android:text="Completed"
+                android:textSize="@dimen/card_text_small" />
+
+            <TextView
+                android:id="@+id/tvLegendEnrolled"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/legend_gold_square"
+                android:drawablePadding="4dp"
+                android:text="Underway"
+                android:textSize="@dimen/card_text_small" />
+
+            <TextView
+                android:id="@+id/tvLegendPending"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/legend_primary_square"
+                android:drawablePadding="4dp"
+                android:text="Remaining"
+                android:textSize="@dimen/card_text_small" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

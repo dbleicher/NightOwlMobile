@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/wguPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/settings_welcome"
+        android:textColor="@color/wguWhite"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
+        android:padding="5dp"
+        app:columnCount="2"
+        app:rowCount="3">
+
+        <TextView
+            android:id="@+id/tvlUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:text="@string/settings_label_username"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/tvlPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_label_userpass"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <ProgressBar
+        android:id="@+id/pbcSpin"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvBadLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:gravity="center"
+        android:text="@string/badLogin"
+        android:textColor="@color/wguPrimary"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selectable_background_nightowl"
+            android:gravity="center"
+            android:text="@string/settings_button_cancel"
+            android:textColor="@color/wguGold" />
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selectable_background_nightowl"
+            android:gravity="center"
+            android:text="@string/settings_button_save"
+            android:textColor="@color/wguPrimary" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

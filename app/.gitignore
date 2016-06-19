@@ -1,0 +1,4 @@
+/build
+fabric.properties
+build.gradle
+*.apk

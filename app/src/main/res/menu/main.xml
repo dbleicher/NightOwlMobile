@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Navigate"
+        android:id="@+id/navSpinner"
+        yourapp:actionViewClass="android.widget.Spinner"
+        yourapp:showAsAction="ifRoom" />
+</menu>

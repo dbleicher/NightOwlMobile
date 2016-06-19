@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/goHome"
+        android:title=" Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/goDegree"
+        android:title=" Degree"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/comm_act_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search the communities"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+</menu>

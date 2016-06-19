@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvAboutPocket"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tvCreditName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/pw_cred_name"
+            android:textColor="@color/wguBlack"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/wguPrimary" />
+
+        <TextView
+            android:id="@+id/tvCreditCopy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wguAccentLightTrans"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/pw_cred_copy"
+            android:textColor="@color/wguBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCreditLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/pw_cred_lic"
+            android:textColor="@color/wguMedGrey"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

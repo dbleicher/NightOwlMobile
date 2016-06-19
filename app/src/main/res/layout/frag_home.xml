@@ -1,0 +1,13 @@
+<com.geofinity.wgu.nightowl.ui.util.TargetedSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvHomeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+
+</com.geofinity.wgu.nightowl.ui.util.TargetedSwipeRefreshLayout>

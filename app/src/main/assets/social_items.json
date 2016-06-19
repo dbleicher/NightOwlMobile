@@ -1,0 +1,335 @@
+[
+	{
+		"stateCode"	: 1,
+		"title"		: "The Night Owl Blog",
+		"url"		: "http://www.wgu.edu/blog",
+		"icon"		: "{fa-rss-square}",
+		"iconColor"	: "#FF243F61"
+	},
+	{
+		"stateCode"	: 1,
+		"title"		: "WGU YouTube Channel",
+		"url"		: "https://www.youtube.com/wgu",
+		"icon"		: "{fa-youtube}",
+		"iconColor"	: "#FFE52D27"
+	},
+	{
+		"stateCode"	: 1,
+		"title"		: "WGU on Twitter",
+		"url"		: "https://twitter.com/wgu",
+		"icon"		: "{fa-twitter}",
+		"iconColor"	: "#FF55ACEE"
+	},
+	{
+		"stateCode"	: 1,
+		"title"		: "WGU FaceBook Page",
+		"url"		: "https://www.facebook.com/wgu.edu",
+		"altUrl"	: "fb://page/39463683517",
+		"icon"		: "{fa-facebook-square}",
+		"iconColor"	: "#FF3B5999"
+	},
+	
+	
+	
+	{
+		"stateCode"	: 2,
+		"title"		: "WGU Indiana Blog",
+		"url"		: "http://indiana.wgu.edu/blog",
+		"icon"		: "{fa-rss-square}",
+		"iconColor"	: "#FFC7D8DE"
+	},	
+	{
+		"stateCode"	: 2,
+		"title"		: "WGU Indiana on YouTube",
+		"url"		: "https://www.youtube.com/user/WGUIndiana",
+		"icon"		: "{fa-youtube}",
+		"iconColor"	: "#FFE52D27"
+	},
+	{
+		"stateCode"	: 2,
+		"title"		: "WGU Indiana on FaceBook",
+		"url"		: "https://www.facebook.com/WGUIndiana",
+		"altUrl"	: "fb://page/107342299313431",
+		"icon"		: "{fa-facebook-square}",
+		"iconColor"	: "#FF3B5999"
+	},
+	{
+		"stateCode"	: 2,
+		"title"		: "WGU Indiana on Twitter",
+		"url"		: "https://twitter.com/wguindiana",
+		"icon"		: "{fa-twitter}",
+		"iconColor"	: "#FF55ACEE"
+	},
+	{
+		"stateCode"	: 2,
+		"title"		: "WGU Indiana on Instagram",
+		"url"		: "http://instagram.com/wguindiana",
+		"icon"		: "{fa-instagram}",
+		"iconColor"	: "#FFC49416"
+	},
+
+
+
+
+
+	{
+		"stateCode"	: 3,
+		"title"		: "WGU Missouri Blog",
+		"url"		: "http://missouri.wgu.edu/blog",
+		"icon"		: "{fa-rss-square}",
+		"iconColor"	: "#FF005295"
+	},
+	{
+		"stateCode"	: 3,
+		"title"		: "WGU Missouri on YouTube",
+		"url"		: "https://www.youtube.com/user/WGUMissouri",
+		"icon"		: "{fa-youtube}",
+		"iconColor"	: "#FFE52D27"
+	},
+	{
+		"stateCode"	: 3,
+		"title"		: "WGU Missouri on FaceBook",
+		"url"		: "https://www.facebook.com/WGUMissouri",
+		"icon"		: "{fa-facebook-square}",
+		"altUrl"	: "fb://page/319929751442449",
+		"iconColor"	: "#FF3B5999"
+	},
+	{
+		"stateCode"	: 3,
+		"title"		: "WGU Missouri on Twitter",
+		"url"		: "https://twitter.com/wgumissouri",
+		"icon"		: "{fa-twitter}",
+		"iconColor"	: "#FF55ACEE"
+	},
+
+
+	{
+	  "stateCode"	: 4,
+	  "title"		: "WGU Nevada Blog",
+	  "url"			: "http://nevada.wgu.edu/blog",
+	  "icon"		: "{fa-rss-square}",
+	  "iconColor"	: "#FF005295"
+	},
+	{
+	  "stateCode"	: 4,
+	  "title"		: "WGU Nevada on YouTube",
+	  "url"			: "https://www.youtube.com/channel/UCYl2xE6dv7pMshZsiiddEJA",
+	  "icon"		: "{fa-youtube}",
+	  "iconColor"	: "#FFE52D27"
+	},
+	{
+	  "stateCode"	: 4,
+	  "title"		: "WGU Nevada on FaceBook",
+	  "url"			: "https://www.facebook.com/WGUNevada",
+	  "icon"		: "{fa-facebook-square}",
+	  "altUrl"		: "fb://page/832849193428827",
+	  "iconColor"	: "#FF3B5999"
+	},
+	{
+	  "stateCode"	: 4,
+	  "title"		: "WGU Nevada on Twitter",
+	  "url"			: "https://twitter.com/WGUNevada",
+	  "icon"		: "{fa-twitter}",
+	  "iconColor"	: "#FF55ACEE"
+	},
+
+	
+	
+	{
+		"stateCode"	: 5,
+		"title"		: "WGU Tennessee Blog",
+		"url"		: "http://tennessee.wgu.edu/blog",
+		"icon"		: "{fa-rss-square}",
+		"iconColor"	: "#FF8B0F04"
+	},
+	{
+		"stateCode"	: 5,
+		"title"		: "WGU Tennessee on YouTube",
+		"url"		: "https://www.youtube.com/user/WGUTennessee",
+		"icon"		: "{fa-youtube}",
+		"iconColor"	: "#FFE52D27"
+	},
+	{
+		"stateCode"	: 5,
+		"title"		: "WGU Tennessee on FaceBook",
+		"url"		: "https://www.facebook.com/WGUTennessee",
+		"altUrl"	: "fb://page/129867423844665",
+		"icon"		: "{fa-facebook-square}",
+		"iconColor"	: "#FF3B5999"
+	},
+	{
+		"stateCode"	: 5,
+		"title"		: "WGU Tennessee on Twitter",
+		"url"		: "https://twitter.com/wgutennessee",
+		"icon"		: "{fa-twitter}",
+		"iconColor"	: "#FF55ACEE"
+	},
+
+
+
+
+
+
+	{
+		"stateCode"	: 6,
+		"title"		: "WGU Texas Blog",
+		"url"		: "http://texas.wgu.edu/blog",
+		"icon"		: "{fa-rss-square}",
+		"iconColor"	: "#FFE2DCCB"
+	},
+	{
+		"stateCode"	: 6,
+		"title"		: "WGU Texas on YouTube",
+		"url"		: "https://www.youtube.com/user/WGUTexas",
+		"icon"		: "{fa-youtube}",
+		"iconColor"	: "#FFE52D27"
+	},
+	{
+		"stateCode"	: 6,
+		"title"		: "WGU Texas on FaceBook",
+		"url"		: "https://www.facebook.com/WGUTexas",
+		"altUrl"	: "fb://page/119610905575",
+		"icon"		: "{fa-facebook-square}",
+		"iconColor"	: "#FF3B5999"
+	},
+	{
+		"stateCode"	: 6,
+		"title"		: "WGU Texas on Twitter",
+		"url"		: "https://twitter.com/wgutexas",
+		"icon"		: "{fa-twitter}",
+		"iconColor"	: "#FF55ACEE"
+	},
+	{
+		"stateCode"	: 6,
+		"title"		: "WGU Texas on Instagram",
+		"url"		: "http://instagram.com/wgutexas",
+		"icon"		: "{fa-instagram}",
+		"iconColor"	: "#FFC49416"
+	},
+
+
+
+
+
+	{
+		"stateCode"	: 7,
+		"title"		: "WGU Washington Blog",
+		"url"		: "http://washington.wgu.edu/blog",
+		"icon"		: "{fa-rss-square}",
+		"iconColor"	: "#FF637C6B"
+	},
+	{
+		"stateCode"	: 7,
+		"title"		: "WGU Washington on YouTube",
+		"url"		: "https://www.youtube.com/user/WGUWashington",
+		"icon"		: "{fa-youtube}",
+		"iconColor"	: "#FFE52D27"
+	},
+	{
+		"stateCode"	: 7,
+		"title"		: "WGU Washington on FaceBook",
+		"url"		: "https://www.facebook.com/wguwashington",
+		"icon"		: "{fa-facebook-square}",
+		"altUrl"	: "fb://page/210573775627940",
+		"iconColor"	: "#FF3B5999"
+	},
+	{
+		"stateCode"	: 7,
+		"title"		: "WGU Washington on Twitter",
+		"url"		: "https://twitter.com/wguwashington",
+		"icon"		: "{fa-twitter}",
+		"iconColor"	: "#FF55ACEE"
+	},
+	{
+		"stateCode"	: 7,
+		"title"		: "WGU Washington on Instagram",
+		"url"		: "http://instagram.com/wguwashington",
+		"icon"		: "{fa-instagram}",
+		"iconColor"	: "#FFC49416"
+	},
+
+
+
+
+
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU Reddit",
+		"url"		: "http://www.reddit.com/r/WGU/",
+		"icon"		: "{fa-reddit}",
+		"iconColor"	: "#FFFF4500"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGUit on Slack",
+		"url"		: "https://wguit.slack.com",
+		"icon"		: "{fa-slack}",
+		"iconColor"	: "#FF000000"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU Google+ Page",
+		"url"		: "https://plus.google.com/u/1/+wgu/posts",
+		"icon"		: "{fa-google-plus}",
+		"iconColor"	: "#FFDD4B39"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU on LinkedIn",
+		"url"		: "https://www.linkedin.com/edu/western-governors-university-19563",
+		"icon"		: "{fa-linkedin-square}",
+		"iconColor"	: "#FF007BB6"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU SchoolsApp",
+		"url"		: "https://apps.facebook.com/wgu-app/",
+		"icon"		: "{fa-facebook-square}",
+		"iconColor"	: "#FF3B5999"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU on Pinterest",
+		"url"		: "https://www.pinterest.com/wgu/",
+		"icon"		: "{fa-pinterest}",
+		"iconColor"	: "#FFCC2127"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU Business College",
+		"url"		: "https://plus.google.com/communities/115085079769484170798",
+		"icon"		: "{fa-google-plus-square}",
+		"iconColor"	: "#FFDD4B39"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU College of Health Professions",
+		"url"		: "https://plus.google.com/communities/117526229782594962806",
+		"icon"		: "{fa-google-plus-square}",
+		"iconColor"	: "#FFDD4B39"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU IT College",
+		"url"		: "https://plus.google.com/communities/112596038910093010145",
+		"icon"		: "{fa-google-plus-square}",
+		"iconColor"	: "#FFDD4B39"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU Military Students",
+		"url"		: "https://plus.google.com/communities/115146292020625422346",
+		"icon"		: "{fa-google-plus-square}",
+		"iconColor"	: "#FFDD4B39"
+	},
+	{
+		"stateCode"	: 100,
+		"title"		: "WGU Teachers College",
+		"url"		: "https://plus.google.com/communities/102435664665222808549",
+		"icon"		: "{fa-google-plus-square}",
+		"iconColor"	: "#FFDD4B39"
+	}
+
+
+
+]

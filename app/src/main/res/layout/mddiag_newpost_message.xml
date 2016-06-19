@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/wguWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCommName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wguPrimary"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Something, Something,\nSomething Community"
+            android:textColor="@color/wguWhite"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etSubjectLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type subject here..."
+            android:inputType="text|textCapSentences|textAutoCorrect|textLongMessage"
+            android:background="@color/palePrimary"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etPostBody"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="Type message here..."
+            android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textLongMessage"
+            android:minLines="3" />
+    </LinearLayout>
+</RelativeLayout>

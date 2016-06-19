@@ -1,0 +1,80 @@
+[
+	{
+		"title"		: "WGU Library & Resources",
+		"url"		: "https://webapp40.wgu.edu/resources",
+		"color"		: "#FFC49416",
+		"icon"		: "{fa-university}"
+	},
+	{
+		"title"		: "Help & Contacts",
+		"url"		: "https://webapp40.wgu.edu/help",
+		"color"		: "#FFF2C216",
+		"icon"		: "{fa-question-circle}"
+	},
+	{
+		"title"		: "Financial Aid",
+		"url"		: "https://webapp40.wgu.edu/finance",
+		"color"		: "#FFF2C216",
+		"icon"		: "{fa-dollar}"
+	},
+	{
+		"title"		: "Campus News",
+		"url"		: "https://webapp18.wgu.edu/news/allNews?1",
+		"color"		: "#FFF2C216",
+		"icon"		: "{fa-newspaper-o}"
+	},
+	{
+		"title"		: "Student Portal",
+		"url"		: "https://my.wgu.edu",
+		"color"		: "#FF4674A3",
+		"icon"		: "{fa-th}"
+	},
+	{
+		"title"		: "Student Handbook",
+		"url"		: "https://www.wgu.edu/sh",
+		"color"		: "#FF55ACEE",
+		"icon"		: "{fa-info-circle}"
+	},
+	{
+	  "title"		: "My Todo List",
+	  "url"			: "https://webapp17.wgu.edu/todos/allTodos",
+	  "color"		: "#FFF2C216",
+	  "icon"		: "{fa-check-circle-o}"
+	},
+	{
+		"title"		: "Student Success Site",
+		"url"		: "https://sites.google.com/a/wgu.edu/student-success/",
+		"color"		: "#FF006000",
+		"icon"		: "{fa-check-square-o}"
+	},
+	{
+	  "title"		: "myWGU Mobile App",
+	  "url"			: "wgumobile://0",
+	  "color"		: "#FFF2C216",
+	  "icon"		: "{fa-mobile}"
+	},
+	{
+		"title"		: "Lynda.com Video Courses",
+		"url"		: "https://lrps.wgu.edu/provision/11650977",
+		"color"		: "#FFF2C216",
+		"icon"		: "{fa-video-camera}"
+	},
+	{
+		"title"		: "eBrary (ProQuest)",
+		"url"		: "http://site.ebrary.com/lib/westerngovernors",
+		"color"		: "#FF005295",
+		"icon"		: "{fa-book}"
+	},
+	{
+		"title"		: "Books 24x7 (SkillSoft)",
+		"url"		: "https://lrps.wgu.edu/provision/95759",
+		"color"		: "#FF8B0F04",
+		"icon"		: "{fa-book}"
+	},
+	{
+		"title"		: "TaskStream",
+		"url"		: "https://www.taskstream.com/",
+		"color"		: "#FFFF4500",
+		"icon"		: "TS"
+	}
+]

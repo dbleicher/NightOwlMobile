@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wguWhite">#FFFFFFFF</color>
+    <color name="wguBlack">#FF000000</color>
+    <color name="wguGrey">#70000000</color>
+    <color name="wguLightGrey">#FFF8F8F8</color>
+    <color name="wguBackGrey">#FFEAEAEA</color>
+    <color name="wguMedGrey">#C0C0C0</color>
+
+    <color name="wguPrimary">#FF4674A3</color>
+    <color name="wguPrimaryText">#FF505050</color>
+    <color name="wguPrimaryDark">#FF243F61</color>
+    <color name="wguGold">#FFF2C216</color>
+
+    <color name="wguGoldDark">#FFC49416</color>
+    <color name="wguGoldDarkAlt">#FFDEAA00</color>
+
+    <color name="wguPrimaryTrans">#AA4674A3</color>
+    <color name="wguPrimaryDarkTrans">#AA243F61</color>
+    <color name="wguPrimaryAccent">#FF97ACC2</color>
+
+    <color name="wguAccentLight">#ffbdd2e8</color>
+    <color name="wguAccentLightTrans">#24bdd2e8</color>
+
+    <color name="wguGreenDark">#FF006000</color>
+    <color name="wguRedDark">#FF600000</color>
+
+    <color name="paleGold">#20F2C216</color>
+    <color name="paleGreen">#20006000</color>
+    <color name="paleRed">#20600000</color>
+    <color name="palePrimary">#204674A3</color>
+
+    <!--<color name="paleGold">#F2EFE6</color>-->
+    <!--<color name="paleGreen">#E6F2E6</color>-->
+    <!--<color name="paleRed">#F2E6E6</color>-->
+    <!--<color name="palePrimary">#E6ECF2</color>-->
+
+
+    <color name="socialFacebook">#FF3B5999</color>
+    <color name="socialGooglePlus">#FFDD4B39</color>
+    <color name="socialLinkedIn">#FF007BB6</color>
+    <color name="socialPinterest">#FFCC2127</color>
+    <color name="socialReddit">#FFFF4500</color>
+    <color name="socialTwitter">#FF55ACEE</color>
+    <color name="socialYouTube">#FFE52D27</color>
+
+
+    <color name="officialWGUBlue">#FF002F51</color>
+
+    <color name="stateBluePale">#FFB9C7D4</color>
+    <color name="stateIndiana">#FFC7D8DE</color>
+    <color name="stateMissouri">#FF005295</color>
+    <color name="stateTennessee">#FF8B0F04</color>
+    <color name="stateTexas">#FFE2DCCB</color>
+    <color name="stateWashington">#FF637C6B</color>
+
+</resources>

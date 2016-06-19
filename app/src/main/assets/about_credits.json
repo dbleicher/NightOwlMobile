@@ -1,0 +1,79 @@
+[
+	{
+		"itemType"	: 0,
+		"name"		: "PocketWGU",
+		"copyright" : "Copyright &copy; 2011-2016<br />David P. Bleicher",
+		"url"		: "http://pocketwgu.geofinity.com/",
+		"license"	: "Apache License, Version 2.0"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "EventBus",
+		"copyright" : "Copyright &copy; 2012 Markus Junginger, greenrobot (http://greenrobot.de)",
+		"url"		: "https://github.com/greenrobot/EventBus",
+		"license"	: "Apache License, Version 2.0"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "FloatingActionButton",
+		"copyright" : "Copyright &copy; 2014 Oleksandr Melnykov",
+		"url"		: "https://github.com/makovkastar/FloatingActionButton",
+		"license"	: "The MIT License"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "Font Awesome",
+		"copyright" : "Created by Dave Gandy",
+		"url"		: "http://fortawesome.github.io/Font-Awesome/",
+		"license"	: "SIL Open Font License (OFL), 1.1"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "Gson",
+		"copyright" : "Copyright &copy; 2008 Google Inc.",
+		"url"		: "https://code.google.com/p/google-gson/",
+		"license"	: "Apache License, Version 2.0"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "HelloCharts",
+		"copyright" : "Copyright &copy; 2014 Leszek Wach",
+		"url"		: "https://github.com/lecho/hellocharts-android",
+		"license"	: "Apache License, Version 2.0"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "Iconify",
+		"copyright" : "Copyright &copy; 2013 Joan Zapata",
+		"url"		: "https://github.com/JoanZapata/android-iconify",
+		"license"	: "Apache License, Version 2.0"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "JSoup",
+		"copyright" : "Copyright &copy; 2009-2014 Jonathan Hedley",
+		"url"		: "http://jsoup.org/",
+		"license"	: "The MIT License"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "Material Dialogs",
+		"copyright" : "Copyright &copy; 2014 Aidan Michael Follestad",
+		"url"		: "https://github.com/afollestad/material-dialogs",
+		"license"	: "The MIT License"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "OkHttp",
+		"copyright" : "Copyright &copy; 2012 Square, Inc.",
+		"url"		: "https://github.com/square/okhttp",
+		"license"	: "Apache License, Version 2.0"
+	},
+	{
+		"itemType"	: 1,
+		"name"		: "Picasso",
+		"copyright" : "Copyright &copy; 2013 Square, Inc.",
+		"url"		: "https://github.com/square/picasso",
+		"license"	: "Apache License, Version 2.0"
+	}
+]

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/wguWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wguWhite">
+
+        <ImageView
+            android:id="@+id/nivAvatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="12dp"
+            android:src="@android:drawable/ic_btn_speak_now" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/nivAvatar"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/tvAuthorName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Jennifer Alexander"
+                android:textColor="@color/wguPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvUpdated"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sep 11, 2014 at 3:15PM"
+                android:textColor="@color/wguPrimaryAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvReplies"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="5 repiles to original post"
+                android:textColor="@color/wguPrimaryAccent"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:id="@+id/ibReply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconview_selector"
+                android:gravity="center"
+                android:shadowColor="#40000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="{fa-reply}"
+                android:textColor="@color/wguPrimary"
+                android:textSize="28sp" />
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:id="@+id/ibToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconview_selector"
+                android:gravity="center"
+                android:shadowColor="#40000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="{fa-users}"
+                android:textColor="@color/wguPrimary"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/wguPrimary" />
+
+    <WebView
+        android:id="@+id/wvSummary"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tvTitle"
+        android:background="@color/wguWhite"
+        android:padding="5dp" />
+
+</LinearLayout>

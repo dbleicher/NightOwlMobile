@@ -1,0 +1,65 @@
+<com.geofinity.wgu.nightowl.ui.util.TargetedSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMessageList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" />
+
+        <LinearLayout
+            android:id="@+id/commToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/wguPrimary"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/tvCommunityName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="All WGU Communities"
+                android:textColor="@color/wguWhite"
+                android:textSize="16sp" />
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:id="@+id/ibFilter"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/selectable_background_nightowl"
+                android:text="{fa-filter}"
+                android:textColor="@color/wguWhite"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            fab:fab_colorNormal="@color/wguGold"
+            fab:fab_colorPressed="@color/wguPrimaryDarkTrans"
+            fab:fab_colorRipple="@color/wguPrimaryDark" />
+        
+    </FrameLayout>
+
+</com.geofinity.wgu.nightowl.ui.util.TargetedSwipeRefreshLayout>

@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSocialList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+
+    <LinearLayout
+        android:id="@+id/socialToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/wguPrimary"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tvSocialDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:lines="2"
+            android:text="Social Sites"
+            android:textColor="@color/wguWhite"
+            android:textSize="16sp" />
+
+        <com.joanzapata.iconify.widget.IconButton
+            android:id="@+id/ibFilter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/selectable_background_nightowl"
+            android:gravity="center"
+            android:text="{fa-filter}"
+            android:textColor="@color/wguWhite"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
